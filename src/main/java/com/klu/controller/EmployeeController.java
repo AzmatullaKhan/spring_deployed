@@ -19,7 +19,7 @@ import com.klu.services.EmployeeService;
 
 @RestController
 @RequestMapping("/employee")
-@CrossOrigin
+@CrossOrigin(origins = "https://loomcraft.vercel.app") 
 public class EmployeeController {
 	
 	@Autowired
